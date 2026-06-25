@@ -1,0 +1,5 @@
+Optimizer,Learning Rate,Momentum,Val PR-AUC,Val ROC-AUC,Val F1-Score,Val Precision,Val Recall,Training Time (s),Epochs,Is Best
+ADABELIEF,0.0001,-,0.8433,0.9877,0.8633,0.8824,0.8451,22.9,27,True
+ADABELIEF,0.001,-,0.8397,0.9867,0.8054,0.7692,0.8451,16.1,20,False
+ADABELIEF,0.01,-,0.7904,0.9867,0.7308,0.6706,0.8028,16.6,20,False
+ADABELIEF,0.1,-,0.0019,0.5,0.0,0.0,0.0,23.1,28,False

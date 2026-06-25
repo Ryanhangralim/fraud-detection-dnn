@@ -1,0 +1,152 @@
+{
+  "sgd": [
+    {
+      "params": "{'learning_rate': 0.0001, 'momentum': 0.0}",
+      "val_pr_auc": 0.703081408100893,
+      "val_roc_auc": 0.9055733383543589,
+      "val_f1": 0.7761194029850745
+    },
+    {
+      "params": "{'learning_rate': 0.0001, 'momentum': 0.5}",
+      "val_pr_auc": 0.7456487160016078,
+      "val_roc_auc": 0.9323265425730811,
+      "val_f1": 0.7851851851851853
+    },
+    {
+      "params": "{'learning_rate': 0.0001, 'momentum': 0.9}",
+      "val_pr_auc": 0.843356057249392,
+      "val_roc_auc": 0.9857620113450426,
+      "val_f1": 0.8489208633093526
+    },
+    {
+      "params": "{'learning_rate': 0.0001, 'momentum': 0.99}",
+      "val_pr_auc": 0.8354246459549364,
+      "val_roc_auc": 0.9908557445217341,
+      "val_f1": 0.8467153284671534
+    },
+    {
+      "params": "{'learning_rate': 0.001, 'momentum': 0.0}",
+      "val_pr_auc": 0.8385439246052874,
+      "val_roc_auc": 0.9864077611971964,
+      "val_f1": 0.8489208633093526
+    },
+    {
+      "params": "{'learning_rate': 0.001, 'momentum': 0.5}",
+      "val_pr_auc": 0.8548512844863633,
+      "val_roc_auc": 0.9903949681898584,
+      "val_f1": 0.8550724637681161
+    },
+    {
+      "params": "{'learning_rate': 0.001, 'momentum': 0.9}",
+      "val_pr_auc": 0.8523151862921685,
+      "val_roc_auc": 0.9900541926005288,
+      "val_f1": 0.8550724637681161
+    },
+    {
+      "params": "{'learning_rate': 0.001, 'momentum': 0.99}",
+      "val_pr_auc": 0.8259928857193297,
+      "val_roc_auc": 0.9751154261286037,
+      "val_f1": 0.8405797101449274
+    },
+    {
+      "params": "{'learning_rate': 0.01, 'momentum': 0.0}",
+      "val_pr_auc": 0.8599142553575548,
+      "val_roc_auc": 0.990801379544448,
+      "val_f1": 0.8550724637681161
+    },
+    {
+      "params": "{'learning_rate': 0.01, 'momentum': 0.5}",
+      "val_pr_auc": 0.8504215396416003,
+      "val_roc_auc": 0.9902106576571081,
+      "val_f1": 0.8405797101449274
+    },
+    {
+      "params": "{'learning_rate': 0.01, 'momentum': 0.9}",
+      "val_pr_auc": 0.8418716572639474,
+      "val_roc_auc": 0.9774753302340876,
+      "val_f1": 0.8444444444444446
+    },
+    {
+      "params": "{'learning_rate': 0.01, 'momentum': 0.99}",
+      "val_pr_auc": 0.8371936522803612,
+      "val_roc_auc": 0.9789000904314987,
+      "val_f1": 0.7972027972027971
+    },
+    {
+      "params": "{'learning_rate': 0.1, 'momentum': 0.0}",
+      "val_pr_auc": 0.8462430145051648,
+      "val_roc_auc": 0.9844532739650101,
+      "val_f1": 0.8450704225352113
+    },
+    {
+      "params": "{'learning_rate': 0.1, 'momentum': 0.5}",
+      "val_pr_auc": 0.838761398634087,
+      "val_roc_auc": 0.9850463163086975,
+      "val_f1": 0.8
+    },
+    {
+      "params": "{'learning_rate': 0.1, 'momentum': 0.9}",
+      "val_pr_auc": 0.6815707089266226,
+      "val_roc_auc": 0.9850055425757331,
+      "val_f1": 0.7682119205298014
+    },
+    {
+      "params": "{'learning_rate': 0.1, 'momentum': 0.99}",
+      "val_pr_auc": 0.001903050252622249,
+      "val_roc_auc": 0.5,
+      "val_f1": 0.0
+    }
+  ],
+  "adam": [
+    {
+      "params": "{'learning_rate': 0.0001}",
+      "val_pr_auc": 0.8520864308773848,
+      "val_roc_auc": 0.9909478997881092,
+      "val_f1": 0.8571428571428571
+    },
+    {
+      "params": "{'learning_rate': 0.001}",
+      "val_pr_auc": 0.8479152463109297,
+      "val_roc_auc": 0.976522285662762,
+      "val_f1": 0.8163265306122449
+    },
+    {
+      "params": "{'learning_rate': 0.01}",
+      "val_pr_auc": 0.001903050252622249,
+      "val_roc_auc": 0.5,
+      "val_f1": 0.0
+    },
+    {
+      "params": "{'learning_rate': 0.1}",
+      "val_pr_auc": 0.001903050252622249,
+      "val_roc_auc": 0.5,
+      "val_f1": 0.0
+    }
+  ],
+  "adabelief": [
+    {
+      "params": "{'learning_rate': 0.0001}",
+      "val_pr_auc": 0.8432838509632427,
+      "val_roc_auc": 0.9877274378714387,
+      "val_f1": 0.8633093525179857
+    },
+    {
+      "params": "{'learning_rate': 0.001}",
+      "val_pr_auc": 0.8397413846097894,
+      "val_roc_auc": 0.9866557185326229,
+      "val_f1": 0.8053691275167785
+    },
+    {
+      "params": "{'learning_rate': 0.01}",
+      "val_pr_auc": 0.7904090116329129,
+      "val_roc_auc": 0.9866974867468793,
+      "val_f1": 0.7307692307692307
+    },
+    {
+      "params": "{'learning_rate': 0.1}",
+      "val_pr_auc": 0.001903050252622249,
+      "val_roc_auc": 0.5,
+      "val_f1": 0.0
+    }
+  ]
+}

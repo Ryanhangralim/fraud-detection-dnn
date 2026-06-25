@@ -1,0 +1,4 @@
+Optimizer,Learning Rate,Momentum,Val PR-AUC,Val ROC-AUC,Val F1-Score,Val Precision,Val Recall,Training Time,Epochs
+SGD,0.01,0.0,0.8599,0.9908,0.8551,0.8806,0.8310,46.0s,80
+ADAM,0.0001,-,0.8521,0.9909,0.8571,0.8696,0.8451,20.0s,25
+ADABELIEF,0.0001,-,0.8433,0.9877,0.8633,0.8824,0.8451,22.3s,27

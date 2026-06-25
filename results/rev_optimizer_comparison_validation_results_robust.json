@@ -1,0 +1,66 @@
+{
+  "sgd": {
+    "best_params": {
+      "learning_rate": 0.01,
+      "momentum": 0.0
+    },
+    "training_time": 45.99371790885925,
+    "epochs_trained": 80,
+    "validation_metrics": {
+      "pr_auc": 0.8599142553575548,
+      "roc_auc": 0.990801379544448,
+      "f1_score": 0.8550724637681161,
+      "precision": 0.8805970149253731,
+      "recall": 0.8309859154929577,
+      "accuracy": 0.999530064146244,
+      "confusion_matrix": {
+        "tn": 42480,
+        "fp": 8,
+        "fn": 12,
+        "tp": 59
+      }
+    }
+  },
+  "adam": {
+    "best_params": {
+      "learning_rate": 0.0001
+    },
+    "training_time": 19.997509956359863,
+    "epochs_trained": 25,
+    "validation_metrics": {
+      "pr_auc": 0.8520864308773848,
+      "roc_auc": 0.9909478997881092,
+      "f1_score": 0.8571428571428571,
+      "precision": 0.8695652173913043,
+      "recall": 0.8450704225352113,
+      "accuracy": 0.999530064146244,
+      "confusion_matrix": {
+        "tn": 42479,
+        "fp": 9,
+        "fn": 11,
+        "tp": 60
+      }
+    }
+  },
+  "adabelief": {
+    "best_params": {
+      "learning_rate": 0.0001
+    },
+    "training_time": 22.27889323234558,
+    "epochs_trained": 27,
+    "validation_metrics": {
+      "pr_auc": 0.8432838509632427,
+      "roc_auc": 0.9877274378714387,
+      "f1_score": 0.8633093525179857,
+      "precision": 0.8823529411764706,
+      "recall": 0.8450704225352113,
+      "accuracy": 0.9995535609389319,
+      "confusion_matrix": {
+        "tn": 42480,
+        "fp": 8,
+        "fn": 11,
+        "tp": 60
+      }
+    }
+  }
+}
